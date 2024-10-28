@@ -1,0 +1,95 @@
+/* 
+.nav-item, .nav-link {
+    color: #4e535a !important;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.nav-link:hover, .nav-link:focus {
+    color: #0596a3 !important;
+}
+#navbar1{
+    flex-grow: inherit;
+}
+.dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 10%;
+    left:-100%;
+    margin-top: -1px;
+  }
+
+   
+  .navbar-nav li:hover > ul.dropdown-menu {
+      display: block;
+      cursor: pointer;
+  }
+
+  .navbar-nav li:hover > ul.dropdown-menu {
+    font-weight: 600;
+    list-style: none;  
+    padding: 0;
+    background: rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    border: 1px solid #ccc;
+
+  }
+
+  .nav-item .dropdown{
+    transform: translateX(-50%);
+    transition: .5s;
+}
+
+  .dropdown-toggle {
+    white-space: nowrap;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu li{
+    padding: 0px 10px;
+    color: #000;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    position: relative;   
+}
+.dropdown-toggle::after{
+    opacity: 0;
+}
+.navbar-nav li:hover > ul.dropdown-menu > ul.dropdown-menu > .dropdown-submenu {
+    font-weight: 600;
+    list-style: none;    
+    padding: 0;
+    transform: scaleY(0);
+    background: rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    border: 1px solid #ccc;
+  }
+
+  .dropdown-menu {
+    animation: 0.5s slideup;
+  }
+  
+  @keyframes slideup {
+    from {
+      transform: translateY(10%);
+    }
+  
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .fixed-top{
+    box-shadow:0 0 5px rgba(0,0,0,0.4);
+    background: #fff !important;
+  } */
